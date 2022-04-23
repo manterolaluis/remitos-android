@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Remitos</string>
+    <string name="borrar_producto">Borrar producto</string>
+    <string name="agregar_producto">Agregar producto</string>
+    <string name="editar_producto">Editar producto</string>
+    <string name="listar_productos">Listar productos</string>
+    <string name="buscar_producto">Buscar producto</string>
+    <string name="nombre">Nombre</string>
+    <string name="marca">Marca</string>
+    <string name="agregar">Agregar</string>
+</resources>
