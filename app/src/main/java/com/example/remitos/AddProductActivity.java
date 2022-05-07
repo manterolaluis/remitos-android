@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -56,7 +54,7 @@ public class AddProductActivity extends AppCompatActivity {
         if(name.isEmpty() || brand.isEmpty() || price.isEmpty()){
             Toast.makeText(this, "Te faltó llenar algo o le pifiaste con el precio", Toast.LENGTH_SHORT).show();
         } else {
-            Double priceDouble = Double.valueOf(price);
+            double priceDouble = Double.parseDouble(price);
             if(priceDouble > 0) {
                 ContentValues row = new ContentValues();
                 row.put("description", name);
